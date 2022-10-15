@@ -1,5 +1,6 @@
-# leetcode-solutions-in-python-with-tests
-Leetcode Algoholic Solutions with Unit Tests :D
+# Leetcode solutions in Python with Unit Tests
+
+Link to leetcode profile: https://leetcode.com/nofoobar/
 
 
 How to run the tests?
