@@ -1,0 +1,6 @@
+env
+.env
+.sublime
+.vscode
+__pycache__
+*.pyc
