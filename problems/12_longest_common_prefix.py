@@ -20,10 +20,8 @@ class Solution:
                 except IndexError:
                     return first_str[:last_common_index+1]
                 
-                #print(index,character,item,index_matched)
             if index_matched == len(strs):
                 last_common_index=index
-                #print("lci",last_common_index)
                 continue
             else:
                 return first_str[:last_common_index+1]
@@ -45,3 +43,10 @@ def test_should_fail_when_wrong_prefix_provided():
     result = "fl"
     with pytest.raises(AssertionError) as e:
         assert Solution().longestCommonPrefix(input_list) == result
+
+
+
+"""
+Metadata: Runtime: 50 ms, faster than 73.49% of Python3 online submissions for Longest Common Prefix.
+Memory Usage: 13.9 MB, less than 49.84% of Python3 online submissions for Longest Common Prefix.
+"""
