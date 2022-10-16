@@ -32,7 +32,7 @@ class Solution:
 
 import pytest
 
-def test_should_return_long_prefix():
+def test_should_return_longest_prefix():
     input_list = ["flower","flow","floght"]
     result = "flo"
     assert Solution().longestCommonPrefix(input_list) == result
