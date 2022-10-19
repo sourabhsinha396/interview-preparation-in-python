@@ -29,3 +29,11 @@ iterable = [
 @pytest.mark.parametrize("input,val,result",iterable)
 def test_should_return_count_of_non_val(input,val,result):
     assert Solution().removeElement(input,val) == result
+
+
+"""
+Problem Link: https://leetcode.com/problems/remove-element/
+
+Runtime: 51 ms, faster than 70.79% of Python3 online submissions for Remove Element.
+Memory Usage: 13.9 MB, less than 14.37% of Python3 online submissions for Remove Element.
+"""
