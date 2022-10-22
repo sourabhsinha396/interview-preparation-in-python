@@ -56,7 +56,7 @@ iterable = [
 
 
 @pytest.mark.parametrize("num_rows, output", iterable)
-def test_shoul_pass_for_input_integers(num_rows, output):
+def test_should_pass_for_input_integers(num_rows, output):
     assert Solution().generate(num_rows) == output
         
 
