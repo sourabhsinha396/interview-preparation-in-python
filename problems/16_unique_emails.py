@@ -71,3 +71,9 @@ iterable = (
 @pytest.mark.parametrize("input,output",iterable)
 def test_should_find_dictinct_emails_count(input,output):
     assert Solution().numUniqueEmails(input)==output
+
+
+"""
+Metadata: Runtime: 238 ms, faster than 6.01% of Python3 online submissions for Unique Email Addresses.
+Memory Usage: 15.5 MB, less than 6.71% of Python3 online submissions for Unique Email Addresses.
+"""
