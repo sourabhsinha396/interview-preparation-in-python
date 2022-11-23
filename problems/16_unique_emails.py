@@ -69,7 +69,7 @@ iterable = (
 
 
 @pytest.mark.parametrize("input,output",iterable)
-def test_should_find_dictinct_emails_count(input,output):
+def test_should_find_distinct_emails_count(input,output):
     assert Solution().numUniqueEmails(input)==output
 
 
